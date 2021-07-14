@@ -21,5 +21,11 @@ La popup est finalement integrée en PHP et à l'aide de bootstrap.
 Elle est stockée comme variable dans le tableau de $_ SESSION, qui comporte une clé "message".
 La variable est affichée à l'envoi du formulaire, ci celui ci ne contient pas d'erreurs.
 
+En ce qui concerne les infos utilisateurs,
+Imaginons que l'accès à ces infos sont possibles uniquement par un admin,
+l'ID de ceux-ci sont visible pour faciliter le debug, la moération, ou simplement l'accès a leurs infos.
+La date de création est aussi disponible,
+Notez qu'en local elle apparaitra en englais, Une fois le site déployé sur un serveur distant, elle s'affichera correctement en français.
+
 Bonne review :)
   
