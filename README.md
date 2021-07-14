@@ -1,6 +1,9 @@
 Bonjour,
 
-Vous trouverez sur ce Repository Git : - le test en structure MVC locale, - Le fichier SQL de la BDD (dans les Assets),
+Vous trouverez sur ce Repository Git :
+
+    - le test en structure MVC locale,
+    - Le fichier SQL de la BDD (dans les Assets),
 
 Le test technique est aussi disponible en ligne, voici le lien :
 
