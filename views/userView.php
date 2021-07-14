@@ -1,12 +1,12 @@
-<div class="text-white-50">
-  <p>Utilisateur <?= $user['id'] ;?></p><br>
-  <h3>Pseudo : <?= $user['username'] ;?>,</h3><br>
-  <h4>Prénom : <?= $user['firstname'] ;?>,</h4><br>
-  <h4>Nom : <?= $user['lastname'] ;?>,</h4><br>
+<div class="text-white-50 user-info">
+  <p>ID Utilisateur : <span class="text-white"><?= $user['id'] ;?></span><br>
+  Pseudo : <span class="text-white"><?= $user['username'] ;?></span><br>
+  Prénom : <span class="text-white"><?= $user['firstname'] ;?></span><br>
+  Nom : <span class="text-white"><?= $user['lastname'] ;?></span><br>
   
-  <h5>eMail : <?= $user['email'] ;?>,</h5><br>
-  <h6>Sa bio : <?= $user['bio'] ;?></h6><br>
-  <h6>Membre depuis : <?= $user['created_at'] ;?></h6><br>
+  email : <span class="text-white"><?= $user['email'] ;?></span><br>
+  Bio : <span class="text-white"><?= $user['bio'] ;?></span><br>
+  Membre depuis : <span class="text-white"><?= dateFR($user['created_at']) ;?></span></p><br>
 </div>
 
 <a href="index.php?page=users" class="btn btn-outline-secondary">Retour</a>
